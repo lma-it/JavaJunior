@@ -7,6 +7,7 @@ import java.util.UUID;
 public class Program extends Entity {
 
     public static void main(String[] args) throws IllegalAccessException {
+
         Employee user = new Employee("Michael", "myemail@myemail.com");
         UUID pk = UUID.randomUUID();
         user.setId(pk);
