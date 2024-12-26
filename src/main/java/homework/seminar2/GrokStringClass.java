@@ -1,4 +1,4 @@
-package homework;
+package homework.seminar2;
 
 import java.lang.reflect.Method;
 

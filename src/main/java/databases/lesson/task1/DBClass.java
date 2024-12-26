@@ -1,4 +1,4 @@
-package databases.task1;
+package databases.lesson.task1;
 
 import ch.qos.logback.classic.Logger;
 import org.hibernate.Session;
@@ -10,12 +10,7 @@ import java.util.List;
 
 public class DBClass {
 
-    private static final String URL = "jdbc:mysql://localhost:3307";
-    private static final String USER = "michael";
-    private static final String PASSWORD = "wisp0423";
-
     private static final Logger logger = (Logger) LoggerFactory.getLogger(DBClass.class);
-
 
 
     public static void connection(){

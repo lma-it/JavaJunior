@@ -28,11 +28,11 @@
     <logger name="org.hibernate.internal.SessionFactoryImpl" level="OFF" additivity="false"/>
 
     <!-- Логирование внутри класса DBClass через его индивидуальный логгер. -->
-    <logger name="databases.task1.DBClass" level="INFO" additivity="false">
+    <logger name="databases.lesson.task1.DBClass" level="INFO" additivity="false">
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
 
-    <logger name="databases.task1.DBClass" level="DEBUG" additivity="false">
+    <logger name="databases.lesson.task1.DBClass" level="DEBUG" additivity="false">
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
 

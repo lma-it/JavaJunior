@@ -1,4 +1,4 @@
-package databases.task1;
+package databases.lesson.task1;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
