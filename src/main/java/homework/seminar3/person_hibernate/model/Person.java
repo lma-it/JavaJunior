@@ -1,4 +1,4 @@
-package homework.seminar3.person_hibernate;
+package homework.seminar3.person_hibernate.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -56,5 +56,16 @@ public class Person {
         this.email = email;
     }
 
-
+    @Override
+    public String toString() {
+        return String.format("Id: %s, Name: %s, Last Name: %s, Surname: %s, Age: %s, Date of birth: %s, Phone: %s, Email: %s",
+                this.id,
+                this.name,
+                this.lastName,
+                this.surname,
+                this.age,
+                this.birthDate,
+                this.phone,
+                this.email);
+    }
 }

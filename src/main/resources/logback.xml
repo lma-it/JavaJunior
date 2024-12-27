@@ -7,6 +7,7 @@
 <!--    Область с включениями сторонних файлов для аппендеров, потому что если их разместить тут, то будет много дублирующегося кода.-->
     <include resource="appenders/hibernate-appenders.xml"/>
     <include resource="appenders/app-appenders.xml"/>
+    <include resource="appenders/person-appender.xml"/>
 
     <!-- Уровень логирования по умолчанию -->
 <!--    Выполняет перенаправление для всех остальных аппендеров в зависимости от его уровня-->
@@ -14,6 +15,9 @@
         <appender-ref ref="HIBERNATE-INFO-FILE-ROLLING"/>
         <appender-ref ref="HIBERNATE-DEBUG-FILE-ROLLING"/>
         <appender-ref ref="HIBERNATE-ERROR-FILE-ROLLING"/>
+        <appender-ref ref="PERSON-INFO-FILE-ROLLING"/>
+        <appender-ref ref="PERSON-DEBUG-FILE-ROLLING"/>
+        <appender-ref ref="PERSON-ERROR-FILE-ROLLING"/>
         <appender-ref ref="FILE-ROLLING"/>
     </root>
 
@@ -36,8 +40,18 @@
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
 
+<!--    Логирование внутри класса PersonRepository через его индивидуальный логгер.-->
+    <logger name="homework.seminar3.person_hibernate.repo_service.PersonRepository" level="DEBUG" additivity="false">
+        <appender-ref ref="PERSON-INFO-FILE-ROLLING"/>
+        <appender-ref ref="PERSON-DEBUG-FILE-ROLLING"/>
+        <appender-ref ref="PERSON-ERROR-FILE-ROLLING"/>
+    </logger>
+
+
     <logger name="ROOT" level="ERROR" additivity="false">
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
+
+
 
 </configuration>

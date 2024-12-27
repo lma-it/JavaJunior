@@ -1,32 +1,5 @@
-2024-12-26 01:15:03 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 1, Name: Magic Arrow, Damage: 10, Attack Bonus: 0, Armor: 2
-2024-12-26 01:15:03 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 2, Name: Lightning, Damage: 25, Attack Bonus: 0, Armor: 0
-2024-12-26 01:15:03 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 3, Name: Stone skin, Damage: 0, Attack Bonus: 0, Armor: 6
-2024-12-26 01:15:03 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 4, Name: Bloodlust, Damage: 0, Attack Bonus: 6, Armor: 0
-2024-12-26 01:15:03 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 5, Name: Curse, Damage: 0, Attack Bonus: -3, Armor: 0
-2024-12-26 01:15:03 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 6, Name: Heal, Damage: -30, Attack Bonus: 0, Armor: 0
-2024-12-26 01:20:43 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 1, Name: Magic Arrow, Damage: 10, Attack Bonus: 0, Armor: 2
-2024-12-26 01:20:43 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 2, Name: Lightning, Damage: 25, Attack Bonus: 0, Armor: 0
-2024-12-26 01:20:43 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 3, Name: Stone skin, Damage: 0, Attack Bonus: 0, Armor: 6
-2024-12-26 01:20:43 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 4, Name: Bloodlust, Damage: 0, Attack Bonus: 6, Armor: 0
-2024-12-26 01:20:43 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 5, Name: Curse, Damage: 0, Attack Bonus: -3, Armor: 0
-2024-12-26 01:20:43 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 6, Name: Heal, Damage: -30, Attack Bonus: 0, Armor: 0
-2024-12-26 01:21:59 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 1, Name: Magic Arrow, Damage: 10, Attack Bonus: 0, Armor: 2
-2024-12-26 01:21:59 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 2, Name: Lightning, Damage: 25, Attack Bonus: 0, Armor: 0
-2024-12-26 01:21:59 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 3, Name: Stone skin, Damage: 0, Attack Bonus: 0, Armor: 6
-2024-12-26 01:21:59 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 4, Name: Bloodlust, Damage: 0, Attack Bonus: 6, Armor: 0
-2024-12-26 01:21:59 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 5, Name: Curse, Damage: 0, Attack Bonus: -3, Armor: 0
-2024-12-26 01:21:59 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 6, Name: Heal, Damage: -30, Attack Bonus: 0, Armor: 0
-2024-12-26 01:45:21 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 1, Name: Magic Arrow, Damage: 10, Attack Bonus: 0, Armor: 2
-2024-12-26 01:45:21 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 2, Name: Lightning, Damage: 25, Attack Bonus: 0, Armor: 0
-2024-12-26 01:45:21 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 3, Name: Stone skin, Damage: 0, Attack Bonus: 0, Armor: 6
-2024-12-26 01:45:21 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 4, Name: Bloodlust, Damage: 0, Attack Bonus: 6, Armor: 0
-2024-12-26 01:45:21 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 5, Name: Curse, Damage: 0, Attack Bonus: -3, Armor: 0
-2024-12-26 01:45:21 [Thread-1] INFO  databases.task1.DBClass - Работа с объектом:id: 6, Name: Heal, Damage: -30, Attack Bonus: 0, Armor: 0
-2024-12-26 15:44:24 [main] INFO  databases.task1.DBClass - Работа с объектом:id: 4, Name: Rage, Damage: 0, Attack Bonus: 100, Armor: 0
-2024-12-26 15:44:24 [main] INFO  databases.task1.DBClass - Обновить объект:id: 4, Name: Rage, Damage: 0, Attack Bonus: 100, Armor: 0
-2024-12-26 15:55:58 [main] INFO  databases.task1.DBClass - Удаление объекта:id: 1, Name: Magic Arrow, Damage: 10, Attack Bonus: 0, Armor: 2
-2024-12-26 15:55:58 [main] INFO  databases.task1.DBClass - Удаление объекта:id: 2, Name: Lightning, Damage: 25, Attack Bonus: 0, Armor: 0
-2024-12-26 15:55:58 [main] INFO  databases.task1.DBClass - Удаление объекта:id: 3, Name: Stone skin, Damage: 0, Attack Bonus: 0, Armor: 6
-2024-12-26 15:55:58 [main] INFO  databases.task1.DBClass - Удаление объекта:id: 4, Name: Rage, Damage: 0, Attack Bonus: 100, Armor: 0
-2024-12-26 15:55:58 [main] INFO  databases.task1.DBClass - Удаление объекта:id: 5, Name: Curse, Damage: 0, Attack Bonus: -3, Armor: 0
-2024-12-26 15:55:58 [main] INFO  databases.task1.DBClass - Удаление объекта:id: 6, Name: Heal, Damage: -30, Attack Bonus: 0, Armor: 0
+2024-12-27 15:56:38 [main] ERROR h.s.p.repo_service.PersonRepository - org.hibernate.query.sqm.ParsingException: line 1:7 no viable alternative at input '*'
+2024-12-27 15:59:58 [main] ERROR h.s.p.repo_service.PersonRepository - org.hibernate.query.sqm.ParsingException: line 1:7 no viable alternative at input '*'
+2024-12-27 16:02:55 [main] ERROR h.s.p.repo_service.PersonRepository - Unknown entity: homework.seminar3.person_hibernate.model.Person
+2024-12-27 16:05:04 [main] ERROR h.s.p.repo_service.PersonRepository - Unknown entity: homework.seminar3.person_hibernate.model.Person
+2024-12-27 16:05:07 [main] ERROR h.s.p.repo_service.PersonRepository - org.hibernate.query.sqm.ParsingException: line 1:7 no viable alternative at input '*'
