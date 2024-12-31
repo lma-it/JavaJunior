@@ -1,4 +1,4 @@
-package homework.seminar3.person_hibernate.util;
+package homework.seminar4.person_hibernate.util;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

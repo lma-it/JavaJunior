@@ -9,6 +9,7 @@
     <include resource="appenders/app-appenders.xml"/>
     <include resource="appenders/person-appender.xml"/>
     <include resource="appenders/students-appender.xml"/>
+    <include resource="appenders/course-appenders.xml"/>
 
     <!-- Уровень логирования по умолчанию -->
 <!--    Выполняет перенаправление для всех остальных аппендеров в зависимости от его уровня-->
@@ -22,6 +23,9 @@
         <appender-ref ref="STUDENTS-INFO-FILE-ROLLING"/>
         <appender-ref ref="STUDENTS-DEBUG-FILE-ROLLING"/>
         <appender-ref ref="STUDENTS-ERROR-FILE-ROLLING"/>
+        <appender-ref ref="COURSES-INFO-FILE-ROLLING"/>
+        <appender-ref ref="COURSES-DEBUG-FILE-ROLLING"/>
+        <appender-ref ref="COURSES-ERROR-FILE-ROLLING"/>
         <appender-ref ref="FILE-ROLLING"/>
     </root>
 
@@ -45,7 +49,7 @@
     </logger>
 
 <!--    Логирование внутри класса PersonRepository через его индивидуальный логгер.-->
-    <logger name="homework.seminar3.person_hibernate.repo_service.PersonRepository" level="DEBUG" additivity="false">
+    <logger name="homework.seminar4.person_hibernate.repo_service.PersonRepository" level="DEBUG" additivity="false">
         <appender-ref ref="PERSON-INFO-FILE-ROLLING"/>
         <appender-ref ref="PERSON-DEBUG-FILE-ROLLING"/>
         <appender-ref ref="PERSON-ERROR-FILE-ROLLING"/>
@@ -56,6 +60,18 @@
         <appender-ref ref="STUDENTS-DEBUG-FILE-ROLLING"/>
         <appender-ref ref="STUDENTS-ERROR-FILE-ROLLING"/>
     </logger>
+
+    <logger name="homework.seminar4.course_hibernate.services.CourseService" level="DEBUG" additivity="false">
+        <appender-ref ref="COURSES-INFO-FILE-ROLLING"/>
+        <appender-ref ref="COURSES-DEBUG-FILE-ROLLING"/>
+        <appender-ref ref="COURSES-ERROR-FILE-ROLLING"/>
+    </logger>
+
+<!--    <logger name="homework/seminar4/course_hibernate/SchoolMain.java" level="DEBUG" additivity="false">-->
+<!--        <appender-ref ref="COURSES-INFO-FILE-ROLLING"/>-->
+<!--        <appender-ref ref="COURSES-DEBUG-FILE-ROLLING"/>-->
+<!--        <appender-ref ref="COURSES-ERROR-FILE-ROLLING"/>-->
+<!--    </logger>-->
 
 
     <logger name="ROOT" level="ERROR" additivity="false">

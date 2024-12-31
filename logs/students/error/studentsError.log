@@ -1,0 +1,176 @@
+2024-12-31 12:27:52 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@69a5c6be] not known to be a parameter of the processing tree
+2024-12-31 12:31:37 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@497ed877] not known to be a parameter of the processing tree
+2024-12-31 12:36:35 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@2d130ac4] not known to be a parameter of the processing tree
+2024-12-31 12:40:52 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@6e0d16a4] not known to be a parameter of the processing tree
+2024-12-31 12:52:29 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@194012a2] not known to be a parameter of the processing tree
+2024-12-31 14:12:00 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@70b48eb3] not known to be a parameter of the processing tree
+2024-12-31 14:14:27 [main] ERROR databases.seminar.task2.Program - ERROR: Ошибка возникла при попытке транзакции. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@60591e1b] not known to be a parameter of the processing tree
+2024-12-31 14:16:36 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@a91119b] not known to be a parameter of the processing tree.
+2024-12-31 14:31:52 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@77083e41] not known to be a parameter of the processing tree.
+2024-12-31 14:33:41 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@d9f5fce] not known to be a parameter of the processing tree.
+2024-12-31 14:38:10 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@a91119b] not known to be a parameter of the processing tree.
+2024-12-31 14:41:54 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@1b409a79] not known to be a parameter of the processing tree.
+2024-12-31 14:42:05 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@8077c97] not known to be a parameter of the processing tree.
+2024-12-31 14:44:16 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@5d5d3a5c] not known to be a parameter of the processing tree.
+2024-12-31 14:45:59 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@2f0ccb34] not known to be a parameter of the processing tree. StackTrace: Optional[databases.seminar.task2.Program.main(Program.java:61)]
+2024-12-31 14:47:57 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@55296b50] not known to be a parameter of the processing tree. StackTrace: databases.seminar.task2.Program.main(Program.java:61)
+2024-12-31 14:52:50 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@60591e1b] not known to be a parameter of the processing tree
+
+2024-12-31 14:57:09 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@3009eed7] not known to be a parameter of the processing tree.
+ StackTrace: org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitJpaCriteriaParameter(BaseSqmToSqlAstConverter.java:2262)
+org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter.accept(JpaCriteriaParameter.java:131)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitBinaryArithmeticExpression(BaseSqmToSqlAstConverter.java:2780)
+org.hibernate.query.sqm.tree.expression.SqmBinaryArithmetic.accept(SqmBinaryArithmetic.java:66)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitComparisonPredicate(BaseSqmToSqlAstConverter.java:3410)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitComparisonPredicate(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.predicate.SqmComparisonPredicate.accept(SqmComparisonPredicate.java:67)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQuerySpec(BaseSqmToSqlAstConverter.java:1212)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQuerySpec(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.select.SqmQuerySpec.accept(SqmQuerySpec.java:58)
+org.hibernate.query.sqm.spi.BaseSemanticQueryWalker.visitQueryPart(BaseSemanticQueryWalker.java:202)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQueryPart(BaseSqmToSqlAstConverter.java:1132)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitSelectStatement(BaseSqmToSqlAstConverter.java:936)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitSelectStatement(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.select.SqmSelectStatement.accept(SqmSelectStatement.java:281)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.translate(BaseSqmToSqlAstConverter.java:504)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:285)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:217)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:191)
+org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:513)
+org.hibernate.query.spi.AbstractQuery.list(AbstractQuery.java:1364)
+org.hibernate.query.Query.getResultList(Query.java:131)
+databases.seminar.task2.Program.main(Program.java:61)
+
+2024-12-31 15:06:37 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@2ee4706d] not known to be a parameter of the processing tree.
+ StackTrace: org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitJpaCriteriaParameter(BaseSqmToSqlAstConverter.java:2262)
+org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter.accept(JpaCriteriaParameter.java:131)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitBinaryArithmeticExpression(BaseSqmToSqlAstConverter.java:2780)
+org.hibernate.query.sqm.tree.expression.SqmBinaryArithmetic.accept(SqmBinaryArithmetic.java:66)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitComparisonPredicate(BaseSqmToSqlAstConverter.java:3410)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitComparisonPredicate(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.predicate.SqmComparisonPredicate.accept(SqmComparisonPredicate.java:67)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQuerySpec(BaseSqmToSqlAstConverter.java:1212)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQuerySpec(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.select.SqmQuerySpec.accept(SqmQuerySpec.java:58)
+org.hibernate.query.sqm.spi.BaseSemanticQueryWalker.visitQueryPart(BaseSemanticQueryWalker.java:202)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQueryPart(BaseSqmToSqlAstConverter.java:1132)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitSelectStatement(BaseSqmToSqlAstConverter.java:936)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitSelectStatement(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.select.SqmSelectStatement.accept(SqmSelectStatement.java:281)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.translate(BaseSqmToSqlAstConverter.java:504)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:285)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:217)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:191)
+org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:513)
+org.hibernate.query.spi.AbstractQuery.list(AbstractQuery.java:1364)
+org.hibernate.query.Query.getResultList(Query.java:131)
+databases.seminar.task2.Program.main(Program.java:60)
+
+2024-12-31 15:10:48 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: org.hibernate.query.sqm.InterpretationException: Error interpreting query [FROM Students s WHERE MOD(s.id, 2) = 0]; this may indicate a semantic (user query) problem or a bug in the parser.
+ StackTrace: org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:147)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:193)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:200)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:666)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:635)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+databases.seminar.task2.Program.main(Program.java:58)
+
+2024-12-31 15:11:42 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: org.hibernate.query.sqm.InterpretationException: Error interpreting query [FROM Students s WHERE MOD(s.id, 2) = 0]; this may indicate a semantic (user query) problem or a bug in the parser.
+ StackTrace: org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:147)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:193)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:200)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:666)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+databases.seminar.task2.Program.main(Program.java:58)
+
+2024-12-31 15:12:00 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Criteria parameter [org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter@11295cb1] not known to be a parameter of the processing tree.
+ StackTrace: org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitJpaCriteriaParameter(BaseSqmToSqlAstConverter.java:2262)
+org.hibernate.query.sqm.tree.expression.JpaCriteriaParameter.accept(JpaCriteriaParameter.java:131)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitBinaryArithmeticExpression(BaseSqmToSqlAstConverter.java:2780)
+org.hibernate.query.sqm.tree.expression.SqmBinaryArithmetic.accept(SqmBinaryArithmetic.java:66)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitComparisonPredicate(BaseSqmToSqlAstConverter.java:3410)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitComparisonPredicate(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.predicate.SqmComparisonPredicate.accept(SqmComparisonPredicate.java:67)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQuerySpec(BaseSqmToSqlAstConverter.java:1212)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQuerySpec(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.select.SqmQuerySpec.accept(SqmQuerySpec.java:58)
+org.hibernate.query.sqm.spi.BaseSemanticQueryWalker.visitQueryPart(BaseSemanticQueryWalker.java:202)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitQueryPart(BaseSqmToSqlAstConverter.java:1132)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitSelectStatement(BaseSqmToSqlAstConverter.java:936)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.visitSelectStatement(BaseSqmToSqlAstConverter.java:291)
+org.hibernate.query.sqm.tree.select.SqmSelectStatement.accept(SqmSelectStatement.java:281)
+org.hibernate.query.sqm.sql.BaseSqmToSqlAstConverter.translate(BaseSqmToSqlAstConverter.java:504)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:285)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.withCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:217)
+org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:191)
+org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:513)
+org.hibernate.query.spi.AbstractQuery.list(AbstractQuery.java:1364)
+org.hibernate.query.Query.getResultList(Query.java:131)
+databases.seminar.task2.Program.main(Program.java:74)
+
+2024-12-31 15:20:41 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: org.hibernate.query.sqm.ParsingException: line 1:38 no viable alternative at input 'MOD(s.name,Vlad)'.
+ StackTrace: org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:150)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:193)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:200)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:666)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+databases.seminar.task2.Program.main(Program.java:77)
+
+2024-12-31 15:21:28 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: org.hibernate.query.sqm.InterpretationException: Error interpreting query [FROM Student s WHERE s.name = Vlad]; this may indicate a semantic (user query) problem or a bug in the parser.
+ StackTrace: org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:147)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:193)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:200)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:666)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+databases.seminar.task2.Program.main(Program.java:77)
+
+2024-12-31 15:22:11 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: org.hibernate.query.sqm.InterpretationException: Error interpreting query [FROM Student s WHERE MOD(s.name, Vlad) = 0]; this may indicate a semantic (user query) problem or a bug in the parser.
+ StackTrace: org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:147)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:193)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:200)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:666)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+databases.seminar.task2.Program.main(Program.java:77)
+
+2024-12-31 16:15:12 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment].
+StackTrace: org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:181)
+org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:411)
+org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:80)
+org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:707)
+org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+databases.seminar.task2.Program.main(Program.java:24)
+
+2024-12-31 16:16:06 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment].
+StackTrace: org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:181)
+org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:86)
+org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:411)
+org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:80)
+org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:707)
+org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746)
+databases.seminar.task2.Program.main(Program.java:24)
+
+2024-12-31 16:38:59 [main] ERROR databases.seminar.task2.Program - ERROR: Возникла ошибка при создании Session. Причина: org.hibernate.query.IllegalQueryOperationException: Expecting a SELECT Query [org.hibernate.query.sqm.tree.select.SqmSelectStatement], but found org.hibernate.query.sqm.tree.delete.SqmDeleteStatement.
+StackTrace: org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:166)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:193)
+org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:200)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:666)
+org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:103)
+databases.seminar.task2.Program.main(Program.java:81)
+

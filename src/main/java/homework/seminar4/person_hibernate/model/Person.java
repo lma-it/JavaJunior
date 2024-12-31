@@ -1,4 +1,4 @@
-package homework.seminar3.person_hibernate.model;
+package homework.seminar4.person_hibernate.model;
 
 import lombok.Getter;
 import lombok.Setter;

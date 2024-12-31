@@ -1,8 +1,8 @@
-package homework.seminar3.person_hibernate.service;
+package homework.seminar4.person_hibernate.service;
 
 
-import homework.seminar3.person_hibernate.model.Person;
-import homework.seminar3.person_hibernate.repo_service.PersonRepository;
+import homework.seminar4.person_hibernate.model.Person;
+import homework.seminar4.person_hibernate.repo_service.PersonRepository;
 
 import java.time.LocalDate;
 import java.util.Scanner;

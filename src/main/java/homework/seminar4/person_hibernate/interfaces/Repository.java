@@ -1,6 +1,6 @@
-package homework.seminar3.person_hibernate.interfaces;
+package homework.seminar4.person_hibernate.interfaces;
 
-import homework.seminar3.person_hibernate.model.Person;
+import homework.seminar4.person_hibernate.model.Person;
 
 public interface Repository {
     void createPerson(Person person);

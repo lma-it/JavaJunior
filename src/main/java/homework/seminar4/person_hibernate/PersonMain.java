@@ -1,6 +1,6 @@
-package homework.seminar3.person_hibernate;
+package homework.seminar4.person_hibernate;
 
-import homework.seminar3.person_hibernate.service.PersonService;
+import homework.seminar4.person_hibernate.service.PersonService;
 
 
 public class PersonMain {

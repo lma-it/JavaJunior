@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/studentsDB</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/schoolDB</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">password</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
@@ -17,7 +17,8 @@
         <property name="hibernate.cache.use_second_level_cache">false</property>
         <property name="hibernate.cache.use_query_cache">false</property>
         <property name="hibernate.connection.autocommit">false</property>
-        <mapping class="homework.seminar3.person_hibernate.model.Person"/>
+        <mapping class="homework.seminar4.person_hibernate.model.Person"/>
         <mapping class="databases.seminar.task2.model.Student"/>
+        <mapping class="homework.seminar4.course_hibernate.model.Course"/>
     </session-factory>
 </hibernate-configuration>

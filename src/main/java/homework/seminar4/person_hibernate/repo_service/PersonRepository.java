@@ -1,9 +1,9 @@
-package homework.seminar3.person_hibernate.repo_service;
+package homework.seminar4.person_hibernate.repo_service;
 
 import ch.qos.logback.classic.Logger;
-import homework.seminar3.person_hibernate.model.Person;
-import homework.seminar3.person_hibernate.interfaces.Repository;
-import homework.seminar3.person_hibernate.util.Connector;
+import homework.seminar4.person_hibernate.model.Person;
+import homework.seminar4.person_hibernate.interfaces.Repository;
+import homework.seminar4.person_hibernate.util.Connector;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
