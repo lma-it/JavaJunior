@@ -4,19 +4,20 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property
-                name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property
-                name="hibernate.connection.url">jdbc:mysql://localhost:3307/test</property>
-        <property name="hibernate.connection.username">user</property>
-        <property name="hibernate.connection.password">1234</property>
-        <property
-                name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="show_sql">true</property>
-        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3307/studentsDB</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">false</property>
+        <property name="hibernate.show_sql">false</property>
         <property name="hibernate.format_sql">true</property>
         <property name="hibernate.use_sql_comments">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.cache.use_second_level_cache">false</property>
+        <property name="hibernate.cache.use_query_cache">false</property>
+        <property name="hibernate.connection.autocommit">false</property>
         <mapping class="homework.seminar3.person_hibernate.model.Person"/>
+        <mapping class="databases.seminar.task2.model.Student"/>
     </session-factory>
 </hibernate-configuration>

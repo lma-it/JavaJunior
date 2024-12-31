@@ -1,0 +1,64 @@
+<included>
+    <appender name="STUDENTS-INFO-FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/students/info/studentsInfo.log</file> <!-- Путь к файлу логов -->
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/students/info/studentsInfo.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize> <!-- Максимальный размер одного файла -->
+            <totalSizeCap>1GB</totalSizeCap> <!-- Общий лимит на размер архивных файлов -->
+            <maxHistory>60</maxHistory> <!-- Хранить логи в течение 60 дней -->
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${filePattern}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+    </appender>
+
+    <appender name="STUDENTS-DEBUG-FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/students/debug/studentsDebug.log</file> <!-- Путь к файлу логов -->
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/students/debug/studentsDebug.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize> <!-- Максимальный размер одного файла -->
+            <totalSizeCap>1GB</totalSizeCap> <!-- Общий лимит на размер архивных файлов -->
+            <maxHistory>60</maxHistory> <!-- Хранить логи в течение 60 дней -->
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${filePattern}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+    </appender>
+
+    <appender name="STUDENTS-ERROR-FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/students/error/studentsError.log</file> <!-- Путь к файлу логов -->
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>logs/students/error/studentsError.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize> <!-- Максимальный размер одного файла -->
+            <totalSizeCap>1GB</totalSizeCap> <!-- Общий лимит на размер архивных файлов -->
+            <maxHistory>60</maxHistory> <!-- Хранить логи в течение 60 дней -->
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>${filePattern}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+    </appender>
+</included>

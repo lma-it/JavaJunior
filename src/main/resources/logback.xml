@@ -8,6 +8,7 @@
     <include resource="appenders/hibernate-appenders.xml"/>
     <include resource="appenders/app-appenders.xml"/>
     <include resource="appenders/person-appender.xml"/>
+    <include resource="appenders/students-appender.xml"/>
 
     <!-- Уровень логирования по умолчанию -->
 <!--    Выполняет перенаправление для всех остальных аппендеров в зависимости от его уровня-->
@@ -18,6 +19,9 @@
         <appender-ref ref="PERSON-INFO-FILE-ROLLING"/>
         <appender-ref ref="PERSON-DEBUG-FILE-ROLLING"/>
         <appender-ref ref="PERSON-ERROR-FILE-ROLLING"/>
+        <appender-ref ref="STUDENTS-INFO-FILE-ROLLING"/>
+        <appender-ref ref="STUDENTS-DEBUG-FILE-ROLLING"/>
+        <appender-ref ref="STUDENTS-ERROR-FILE-ROLLING"/>
         <appender-ref ref="FILE-ROLLING"/>
     </root>
 
@@ -45,6 +49,12 @@
         <appender-ref ref="PERSON-INFO-FILE-ROLLING"/>
         <appender-ref ref="PERSON-DEBUG-FILE-ROLLING"/>
         <appender-ref ref="PERSON-ERROR-FILE-ROLLING"/>
+    </logger>
+
+    <logger name="databases.seminar.task2.Program" level="DEBUG" additivity="false">
+        <appender-ref ref="STUDENTS-INFO-FILE-ROLLING"/>
+        <appender-ref ref="STUDENTS-DEBUG-FILE-ROLLING"/>
+        <appender-ref ref="STUDENTS-ERROR-FILE-ROLLING"/>
     </logger>
 
 
