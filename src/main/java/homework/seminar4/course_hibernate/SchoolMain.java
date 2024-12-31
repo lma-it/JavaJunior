@@ -11,7 +11,9 @@ import java.util.List;
 public class SchoolMain {
 
     private static final Logger logger = (Logger) LoggerFactory.getLogger(SchoolMain.class);
+
     private static final CourseService service = new CourseService();
+
     public static void main(String[] args) {
         service.createAll(SessionService.getSession(), List.of(new Course("Русский язык", "144 часа"),
                 new Course("Математика", "212 часов"),

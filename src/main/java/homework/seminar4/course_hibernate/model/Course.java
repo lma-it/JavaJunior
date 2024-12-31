@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.*;
 
+
+
 @Entity
 @Table(name = "courses")
 @Getter

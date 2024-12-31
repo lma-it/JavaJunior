@@ -4,6 +4,7 @@ import homework.seminar4.course_hibernate.model.Course;
 import org.hibernate.Session;
 
 import java.util.List;
+
 public interface Repository<T, Id> {
     void create(Session session, T item);
     void createAll(Session session, List<T> items);

@@ -1,6 +1,8 @@
 package homework.seminar4.course_hibernate.util;
 
 
+
+
 import homework.seminar4.course_hibernate.model.Course;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

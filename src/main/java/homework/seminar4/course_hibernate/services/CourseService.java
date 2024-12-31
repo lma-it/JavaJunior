@@ -84,6 +84,7 @@ public class CourseService implements CourseRepository {
         }
 
     }
+
     @Override
     public Course findById(Session session, Long id) {
         try(session){
@@ -98,6 +99,7 @@ public class CourseService implements CourseRepository {
             return null;
         }
     }
+
     private void saveErrorLogs(Exception e, String action, String methodName){
         StringBuilder sb = new StringBuilder("StackTrace: ");
         for(StackTraceElement element : e.getStackTrace()){
@@ -105,6 +107,7 @@ public class CourseService implements CourseRepository {
         }
         logger.error("ERROR: Класс: {}, метод: {}. Ошибка при попытке {} объект в/из БД. Причина: {}.{}", this.getClass().getSimpleName(), methodName, action, e.getMessage(), sb);
     }
+
     private void saveInfoLogs(Course item, String action ,String methodName){
         logger.info("Класс: {}, метод: {}: Успешно {} объект {} в БД.", this.getClass().getSimpleName(), methodName, action, item);
     }
