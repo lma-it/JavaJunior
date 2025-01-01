@@ -4,3 +4,6 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2024-12-31 16:16:06 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-12-31 22:08:46 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
